@@ -1,0 +1,108 @@
+
+.imgs{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+}
+
+.w{
+    background-image: url("../18.0\ Drum\ Kit/images/tom1.png");
+}
+
+.s{
+    background-image: url("../18.0\ Drum\ Kit/images/tom4.png");
+}
+
+.d{
+    background-image: url("../18.0\ Drum\ Kit/images/crash.png");
+}
+
+.j{
+    background-image: url("../18.0\ Drum\ Kit/images/kick.png");
+}
+
+.k{
+    background-image: url("../18.0\ Drum\ Kit/images/snare.png");
+}
+
+.l{
+    background-image: url("../18.0\ Drum\ Kit/images/tom3.png");
+}
+
+.a{
+    background-image: url("../18.0\ Drum\ Kit/images/tom2.png");
+}
+
+.pressed{
+    box-shadow: 1px, 4px, 4px, 1px salmon;
+    opacity: 0.75;
+}
+
+footer{
+    color: lightgrey;
+    margin-top: 10%;
+    text-align: right;
+    width: 100%;
+}
+
+@media (max-width: 950px) {    
+    
+    body{
+        background-color: rgb(21, 21, 70);
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    h1{
+        color: lightgrey;
+        font-family: 'Merriweather', serif;
+        font-size: 3.75rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .drum{
+        background-color: white;
+        border: solid 5px salmon;
+        border-radius: 10px;
+        color: rgb(1, 122, 1);
+        font-family: 'Bitter', serif;
+        font-size: 3rem;
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+@media (min-width: 950.01px) and (max-width: 1800px) {    
+    
+    body{
+        background-color: rgb(21, 21, 70);
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    h1{
+        color: lightgrey;
+        font-family: 'Merriweather', serif;
+        font-size: 4rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .drum{
+        background-color: white;
+        border: solid 5px salmon;
+        border-radius: 10px;
+        color: rgb(1, 122, 1);
+        font-family: 'Bitter', serif;
+        font-size: 3rem;
+        height: 100px;
+        width: 100px;
+    }
+
+}
